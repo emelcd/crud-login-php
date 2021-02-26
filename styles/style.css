@@ -33,23 +33,13 @@ form hr{
     margin: 1rem auto 2rem auto;
 }
 
-form input[type="submit"]{
-    width: 100%;
-}
 
 
-input {
-    padding: .25rem;
-
-
-}
 #toggle-button {
     position: absolute;
     top: 0;
-    
-    
     width: 100%;
-    
+       
 }
 .container {
     position: relative;
