@@ -16,18 +16,21 @@ form {
     min-width: 100px;
     margin: 5rem auto;
     padding: .25rem;
-    height: 300px;
+    
 }
+
+
 
 form h3{
     color: rgb(72, 72, 114);
-    margin: 1rem auto 2rem auto;
     text-align: center;
-
+    margin: 2rem auto;
+    
 }
 form hr{
     width: 50%;
     margin: auto;
+    margin: 1rem auto 2rem auto;
 }
 
 form input[type="submit"]{
@@ -37,14 +40,27 @@ form input[type="submit"]{
 
 input {
     padding: .25rem;
-    margin-top: 1.55rem;
+
 
 }
 #toggle-button {
+    position: absolute;
+    top: 0;
+    
+    
     width: 100%;
     
 }
 .container {
-    width: 50%;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
     margin: auto;
+}
+
+.title {
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+    font-size: 40px;
 }
